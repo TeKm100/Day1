@@ -201,14 +201,28 @@ main{
 
 @media (max-width: 1200px){
     header{
+        font-size: 0.7rem;
         padding: 1rem 0.5rem;
     }
 
+    h1 .logo{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 200;
+    }
+
+    nav{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-left: -2%;
+}
     .content{
         margin-top: 85%;
     }
 
     .robot-3d{
+        top: 30%;
         scale: 0.8;
         top: -20%;
         right: 2%;
@@ -262,12 +276,12 @@ main{
     }
 
     .btn-get-started{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0.5rem 1.2rem;
     }
 
     .btn-signing-main{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0.5rem 2rem;
     }
 }
